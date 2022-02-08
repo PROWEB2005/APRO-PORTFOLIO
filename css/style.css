@@ -1,0 +1,685 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #bbff00;
+}
+
+@font-face{
+    font-family: 'FASTRACE';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url("../fonts/Fastrace-YzXKj.ttf");
+}
+@font-face{
+    font-family: 'MinecraftTen';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url("../fonts/MinecraftTen-VGORe.ttf");
+}
+@font-face{
+    font-family: 'VtksDura3D';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url("../fonts/VtksDura3D-P12r.ttf");
+}
+/* ******************************nav begin*************************** */
+.nav{
+    background: url('../img/navback.jpg')no-repeat center / cover;
+    -webkit-box-shadow: 12px 8px 8px 3px rgba(0,0,0,0.86); 
+    box-shadow: 12px 8px 8px 3px rgba(0,0,0,0.86);  
+    margin: 20px 20px 10px 20px;
+    border-radius: 20px;
+}
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.nav_logo{
+    font-family: fastrace;
+    font-size: 38px;
+    background: -webkit-linear-gradient(rgba(191, 255, 0, 0.972), rgba(1, 87, 1, 0.863));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 3px 3px 0px rgb(24, 54, 6);
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    background: #73ff00bb;
+    justify-content: center;
+    padding: 6px 56px 8px 20px;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.541),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.363),
+    5px 5px 15px rgba(0, 0, 0, 0.493),
+    -5px -5px 15px rgba(255, 255, 255, 0.349);
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.nav_link{
+    display: flex;
+    font-family: fastrace;
+    text-decoration: none;
+    padding-left: 50px;
+    font-size: 28px;
+    background: -webkit-linear-gradient(rgb(41, 4, 88), rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 3px 3px 0px rgb(21, 4, 255);
+}
+
+
+/**************************** nav end *********************************************************** */
+
+
+/******************************* header begin ***************************************/
+.header{
+    margin: 20px 20px 10px 20px;
+    background: url('../img/backgroundblue.png');
+    -webkit-box-shadow: 12px 8px 8px 3px rgba(0,0,0,0.86); 
+    box-shadow: 12px 8px 8px 3px rgba(0,0,0,0.86); 
+    border-radius: 20px;
+}
+.header_title{
+    font-family: fastrace;
+    font-size: 70px;
+    color: rgb(179, 255, 0);
+}
+.header_link{
+    font-size: 30px;
+    text-decoration: none;
+    color: greenyellow;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.541),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.363),
+    5px 5px 15px rgba(0, 0, 0, 0.493),
+    -5px -5px 15px rgba(255, 255, 255, 0.349);
+    border-radius: 20px;
+    padding: 6px 56px ;
+    background: indigo;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.header_left{
+    margin-left: 100px;
+    width: 350px;
+}
+.header_title-span{
+    font-size: 150px;
+    background: -webkit-linear-gradient(rgba(248, 248, 248, 0.972), rgb(180, 255, 6));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.header_img{
+    height: 700px;
+    width: 700px;
+}
+.headers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ******************************header end ************************** */
+
+/* **********************about begin********************************* */
+.about{
+    margin: 20px 20px 10px 20px;
+    background: black;
+    -webkit-box-shadow: 12px 8px 8px 3px rgba(0,0,0,0.86); 
+    box-shadow: 12px 8px 8px 3px rgba(0,0,0,0.86); 
+    border-radius: 20px;
+    padding: 50px;
+}
+.about_me1page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 1s;
+}
+.aboutme1img{
+    width: 500px;
+    height: 500px;
+}
+
+.aboutme2img{
+    width: 500px;
+    height: 500px;
+    transition: 2s;
+}
+
+.cv{
+    color: #8dff0b;
+    width: 500px;
+    font-size: 30px;
+    font-family: VtksDura3D;
+    display: flex;
+    transition: 1s;
+}
+.cv:hover{
+    background: linear-gradient(45deg,rgb(17, 0, 255),rgba(17, 0, 248, 0.295),rgba(0, 255, 21, 0.897));
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    border-radius: 20px;
+    color: #8dff0b;
+    transition: 1s;
+}
+.cv2{
+    color: rgb(4, 0, 247);
+    font-size: 35px;
+    font-family: VtksDura3D;
+    width: 400px;
+    transition: 1s;
+}
+.cv2:hover{
+    background: linear-gradient(45deg,rgb(17, 0, 255),rgba(17, 0, 248, 0.295),rgba(0, 255, 21, 0.897));
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    border-radius: 20px;
+    color: rgb(4, 113, 255);
+    transition: 1s;
+}
+.about_me2page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}.about_me3page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 1s;
+}
+.aboutme3img{
+    width: 500px;
+    height: 500px;
+}
+.cv3{
+    color: #8dff0b;
+    width: 500px;
+    font-size: 30px;
+    font-family: VtksDura3D;
+    display: flex;
+    transition: 1s;
+}
+.cv3:hover{
+    background: linear-gradient(45deg,rgb(17, 0, 255),rgba(17, 0, 248, 0.295),rgba(0, 255, 21, 0.897));
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    border-radius: 20px;
+    color: #8dff0b;
+    transition: 1s;
+}
+
+/* connect begin *****************                  00 */
+.connect{
+    margin: 50px 20px 50px 20px;
+    background: linear-gradient(45deg,#e5ff00, rgb(55, 0, 255));
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.541),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.363),
+    5px 5px 15px rgba(0, 0, 0, 0.493),
+    -5px -5px 15px rgba(255, 255, 255, 0.349);
+    border-radius: 20px;
+}
+.number{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    color: blue;
+    
+}
+.fa-phone-alt{
+    font-size: 30px;
+}
+.telegram{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    color: blue;
+    text-decoration: none;
+}
+.instagram{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    color: red;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    color: blue;
+}
+.youtube{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    color: red;
+}
+.github{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    color: black;
+}
+.number_link{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    text-align:justify;
+    text-decoration:none;
+    font-family: fastrace;
+    font-size: 30px;
+    color: rgb(28, 66, 10);
+    text-shadow: 3px 3px 0px rgb(0, 0, 0);
+}
+.telegram_link{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    text-align:justify;
+    text-decoration:none;
+    font-size: 50px;
+    font-family: fastrace;
+    color: #1900ff;
+    text-shadow: 3px 3px 0px rgb(0, 0, 0);
+}
+.instagram_link{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    text-align:justify;
+    text-decoration:none;
+    font-family: fastrace;
+    color: #ff009d;
+    text-shadow: 3px 3px 0px rgb(0, 0, 0);
+}
+.facebook_link{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    text-align:justify;
+    font-family: fastrace;
+    font-size: 50px;
+    color: #1100ff;
+    text-shadow: 3px 3px 0px rgb(0, 0, 0);
+}
+.youtube_link{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    text-align:justify;
+    text-decoration:none;
+    font-family: fastrace;
+    color: #ff0000;
+    text-shadow: 3px 3px 0px rgb(0, 0, 0);
+}
+.github_link{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    text-align:justify;
+    text-decoration:none;
+    font-family: fastrace;
+    color: #000000;
+    text-shadow: 3px 3px 0px rgb(255, 255, 255);
+}
+.imgconnect{
+    width: 600px;
+    height: 600px;
+}
+.connects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.connect_links{
+    margin-right: 50px;
+}
+.connect_link{
+    text-decoration: none;
+    font-family: fastrace;
+    
+}
+#links{
+    margin: 15px;
+    text-decoration: none;
+    letter-spacing: 15px;
+}
+/*************connect end****************** */
+
+/* *********************projects begin ****************************** */
+
+.projects{
+    margin: 20px 20px 10px 20px;
+    padding: 50px;
+    background: linear-gradient(45deg,#e5ff00, rgb(55, 0, 255));
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.541),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.363),
+    5px 5px 15px rgba(0, 0, 0, 0.493),
+    -5px -5px 15px rgba(255, 255, 255, 0.349);
+    border-radius: 20px;
+}
+.projects_card_img{
+    width: 100%;
+    box-shadow: inset 5px 5px 25px rgba(0, 0, 0, 0.541),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.363),
+    5px 5px 15px rgba(0, 0, 0, 0.493),
+    -5px -5px 15px rgba(255, 255, 255, 0.349);
+}
+.git_link{
+    font-family: fastrace;
+    display: flex;
+    font-size: 300px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: green;
+    text-shadow: 45px 45px 60px #000;
+}
+
+/* slider****************************************** */
+
+/* 
+
+GAMES
+*/
+
+/* MM   MM   I   NN   N   EEEEE   CCCCCC    RRRRRR       A      FFFFFFFF   TTTTTTTTT
+   M M M M   I   N N  N   E       C         R     R     A A     F              T
+   M  M  M   I   N  N N   EEE     C         RRRRRR     A   A    FFFFF          T
+   M     M   I   N   NN   E       C         R R       AAAAAAA   F              T
+                          EEEEE   CCCCCC    R    R   A       A  F              T    */
+.minecraft_game{
+    background: url('/img/minecraftgf3.gif');
+    padding: 60px;
+}
+ .container_minecr{
+    padding: 70px;
+    border: 0.1px solid black;
+    /* padding: 70px; */
+    background: linear-gradient(to bottom, #3cff00a9, #4400ff86,#ff000031,#c0c0c048,#000);
+    border-radius: 20px;
+    box-shadow: 0 2.8px 2.2px rgba(255, 255, 255, 0.034),
+    0 6.7px 5.3px rgba(105, 24, 255, 0.541),
+    0 12.5px 10px rgba(9, 255, 42, 0.541),
+    0 22.3px 17.9px rgba(5, 212, 150, 0.582),
+    0 41.8px 33.4px rgba(192, 9, 24, 0.445),
+    0 100px 80px rgba(170, 100, 7, 0.719);
+}
+.minecr_gif{
+    border-radius: 20px;
+    height: 50%;
+    width: 100%;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.342),
+    0 12.5px 10px rgba(0, 0, 0, 0.329),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.719),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.493);
+}
+
+.minecr_earth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.minecraft_erath-txt{
+    font-size: 50px;
+    font-family: 'MinecraftTen'; 
+    color: navy;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.minecraft_erath-gif{
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+}
+.minecraft_erath-gif:hover{
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), 
+    linear-gradient(to right, rgb(30, 255, 0), rgb(9, 0, 128));
+    background-origin: padding-box, border-box;
+    background-repeat: no-repeat; 
+    border: 5px solid transparent;
+    border-radius: 30%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.minecr_about-txt{
+    font-size: 25px;
+    text-align: justify;
+    border-radius: 20px;
+ 
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.342),
+    0 12.5px 10px rgba(0, 0, 0, 0.329),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.719),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.493);
+    background: rgb(19, 228, 0);
+    margin-top: 20px;
+    font-family: 'MinecraftTen'; 
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    color: rgb(12, 64, 80);
+}
+.minecr_about-txt:hover{
+    background: darkblue;
+    color: rgb(0, 147, 173);
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(40, 255, 11, 0.342),
+    0 12.5px 10px rgba(68, 0, 255, 0.329),
+    0 22.3px 17.9px rgba(255, 0, 0, 0.719),
+    0 41.8px 33.4px rgba(9, 183, 196, 0.086),
+    0 100px 80px rgba(3, 7, 190, 0.493);
+}
+.minecr_seasons{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(192, 192, 192, 0.329);
+    padding-bottom: 80px;
+    
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 3px 5px 6px rgb(99, 243, 94);  
+    -moz-box-shadow:    3px 3px 5px 6px rgb(204, 243, 31);  
+    box-shadow:         3px 3px 5px 6px rgb(0, 146, 190); 
+}
+.season_title{
+    border-bottom: 4px solid rgb(94, 255, 0);
+    width: max-content;
+    padding: 20px;
+    margin: 30px;
+    font-family: 'MinecraftTen'; 
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(51, 78, 7), rgb(0, 231, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.title_span{
+color: red;
+}
+.season_name{
+    font-family: 'MinecraftTen'; 
+    border-bottom: 2px solid rgb(94, 255, 0);
+    width: max-content;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: rgb(0, 179, 250);
+}
+.season1{
+    margin: 5px;
+    border-radius: 20px;
+}
+.season2{
+    margin: 5px;
+    border-radius: 20px;
+}
+.minecr_season1{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+}
+.minecr_season2{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+
+}
+.minecr_blogs{
+    display: flex;  
+}
+.heroes{
+    background: linear-gradient(45deg,#020ead63,rgba(192, 192, 192, 0.616),#26ff009d);
+    border-radius: 20px;
+    -webkit-box-shadow: 13px 13px 15px 5px rgba(0, 255, 242, 0.274);  
+    -moz-box-shadow:    13px 13px 15px 5px rgba(2, 204, 255, 0.39);  
+    box-shadow:         13px 13px 15px 5px rgba(60, 0, 255, 0.466); 
+}
+.heroes_title{
+    font-size: 60px;
+    font-family: MinecraftTen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    margin: 50px;
+}
+.hero{
+   width: 100%;
+   height: 100%;
+}
+/* MM   MM   I   NN   N   EEEEE   CCCCCC    RRRRRR       A      FFFFFFFF   TTTTTTTTT
+   M M M M   I   N N  N   E       C         R     R     A A     F              T
+   M  M  M   I   N  N N   EEE     C         RRRRRR     A   A    FFFFF          T
+   M     M   I   N   NN   E       C         R   R     AAAAAAA   F              T
+                          EEEEE   CCCCCC    R    R   A       A  F              T    
+                          
+                         
+                         EEEEE        NN    N      DDDDD
+                         E            N N   N      D    D
+                         EEE          N  N  N      D    D
+                         E            N   N N      D    D
+                         EEEEE        N    NN      DDDDD     */
+
+
+             /* PPPPP        U       U        BBBBBB         GGGGGGGG
+                P    P       U       U        B     B        G
+                P    P       U       U        BBBBBB         G
+                P P P        U       U        B     B        G   GGGGG 
+                P            U       U        B      B       G   G  GG
+                P            UUUUUUUUU        BBBBBBB        GGGGGGGGG  */
+.pubg{
+    padding: 50px;
+    background: url('../img/pubggreen.jpg')no-repeat center / cover;
+    object-fit: cover;
+}
+.pubg_title{  
+    font-family: fastrace;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    color: rgb(8, 104, 104);
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    letter-spacing: 1.5px;
+}
+.pubg_titlepng{
+    display: flex;
+    justify-content: center;
+}
+.pubg_title-png{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+   margin-top: -50px;
+   margin-bottom: 20px;
+}
+.container_pubg{
+    background: #0400ff6b;
+    padding: 50px;
+    border-radius: 20px;
+}
+.pubg_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 40px 44px 48px rgba(0, 0, 0, 0.719);
+    margin-bottom: 50px;
+}
+.pubg_txt{
+    /* width: 100%; */
+    text-align: justify;
+    font-family: fastrace;
+    font-size: 25px;
+    background: black;
+    color: rgb(0, 136, 146);
+    padding: 10px;
+    border-radius: 20px;
+    text-shadow: 1px 1px 5px rgb(55, 19, 214);
+    box-shadow: 7px 7px 25px rgb(0, 0, 0);
+    border: 50px groove rgb(0, 255, 85);
+}
+.pubg_logo{
+    width: 100px;
+    height: 100px;
+    background: rgba(165, 42, 42, 0.527);
+    padding: 10px;
+    border-radius: 20px;
+}
+.pubg_hero{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+}
